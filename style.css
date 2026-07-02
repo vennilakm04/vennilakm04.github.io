@@ -1,0 +1,90 @@
+/* General Styling */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f7fc;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+header{
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:48px;
+}
+
+header p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#2563eb;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#ddd;
+}
+
+/* Navigation */
+nav{
+    background:#111827;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#60a5fa;
+}
+
+/* Sections */
+section{
+    padding:50px;
+}
+
+section h2{
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+/* Cards */
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+/* Footer */
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
